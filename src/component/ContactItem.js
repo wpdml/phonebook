@@ -5,7 +5,7 @@ const ContactItem = ({item}) => {
   return (
     <Row>
         <Col lg={3}>
-        <img width={200} src="https://i.pinimg.com/originals/86/f8/6a/86f86ac042b3f2cf670a8d9a61b495a9.jpg"/>
+        <img width={200} src="https://i.pinimg.com/originals/86/f8/6a/86f86ac042b3f2cf670a8d9a61b495a9.jpg" alt={`${item.name}'s profile`}/>
         </Col>
         <Col lg={5}>
         <div>
